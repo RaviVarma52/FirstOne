@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  var image = "https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-2x1-.jpg?auto=webp&quality=75&crop=2:1&width=1024";
+  // var image = ;
   return (
     <div className="App">
       <div className="header">
@@ -13,7 +13,13 @@ function App() {
           </div>
       </div>
       <div className="image">
-          <img src={image} alt="background_image"/>
+          <div className='leftSide'>
+                <h1 >Hey Buddy</h1>
+                <h2>How are you. Searching for great deals????</h2>
+                <h3>You're at right place &#128540;</h3>
+                <button>Go Home</button>
+          </div>
+           <div className="minions"/>
       </div>
     </div>
   );
