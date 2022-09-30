@@ -21,7 +21,7 @@
 }
 .image h1 {
   padding: 0px;
-  font-size: 60px;
+  font-size: 80px;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 .minions {
@@ -38,4 +38,7 @@ button {
   border-radius: 20px;
   color: #FFFFFF;
   font-size: 20px;
+}
+.leftSide {
+  margin-top: 100px;
 }
