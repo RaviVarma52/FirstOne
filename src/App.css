@@ -1,5 +1,6 @@
 .App {
   background: linear-gradient(35deg,#E5A663,#FAEE9E,#E5A663);
+  /* background-image: url('https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-2x1-.jpg?auto=webp&quality=75&crop=2:1&width=1024'); */
   background-size: 100%;
 }
   h1 {
@@ -13,5 +14,31 @@
     display: flex;
   }
 .image {
+  display: flex;
   justify-content: center;
+  padding: 200px 0px 200px 0px;
+
+}
+.image h1 {
+  padding: 0px;
+  font-size: 80px;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.minions {
+  background-image: url("./mini.png");
+  background-size: 600px;
+  width: 600px;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+button {
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.leftSide {
+  margin-top: 100px;
 }
