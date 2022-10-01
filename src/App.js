@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import ContactUs from './ContactUs';
 import Welcome from './Welcome';
 import Header from './Header';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
 
 function App() {
-  // var image = ;
   return (
     <div className="App">
       <BrowserRouter>
@@ -14,6 +13,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Welcome/>}></Route>
             <Route path='/contactUs' element={<ContactUs/>}></Route>
+            <Route path='/Home' element={<Home/>}></Route>
           </Routes>
       </BrowserRouter>
     </div>

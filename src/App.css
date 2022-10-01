@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(35deg,#E5A663,#FAEE9E,#E5A663);
+  /* background: linear-gradient(35deg,#E5A663,#FAEE9E,#E5A663); */
   /* background-image: url('https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-2x1-.jpg?auto=webp&quality=75&crop=2:1&width=1024'); */
   background-size: 100%;
 }
@@ -41,4 +41,61 @@ button {
 }
 .leftSide {
   margin-top: 100px;
+}
+@media screen and (min-device-width: 768px ) and (max-device-width: 1024px) {
+  .App {
+    height: 100vh;
+  }
+  .image {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+    align-items: center;
+  }
+  .minions {
+    width: 700px;
+    background-size: 700px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-device-width: 767px ){
+  .App {
+    height: 100vh;
+  }
+  .image {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+    align-items: center;
+  }
+  .header h1 {
+    padding: 10px;
+    font-size: 70px;
+  }
+  .image h1 {
+    font-size: 40px;
+  }
+  .minions {
+    width: 300px;
+    background-size: 300px;
+    height: 180px;
+  }
+  .leftSide {
+    padding: 40px;
+    margin-top: 40px;
+  }
+
+}
+@media screen and (max-device-height: 640px) {
+  .minions {
+    display: none;
+  }
+}
+@media screen and (min-height: 800px) and (max-height: 1000px) {
+  .minions {
+    background-size: 405px;
+    width: 410px;
+    height: 400px;
+  }
 }
