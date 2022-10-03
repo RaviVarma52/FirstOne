@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ContactUs from "./ContactUs";
+import React from "react";
 
 const Welcome = () => {
 
