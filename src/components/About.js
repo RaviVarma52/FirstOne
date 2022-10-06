@@ -1,5 +1,6 @@
 import React from 'react';
-import './About.css';
+import { Link } from 'react-router-dom';
+import '../styling/About.css';
 
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
             <p><span><b>Rediscover a <br/> great shopping <br/> tradition.</b></span><br/>
             <i>create your own style ...<br/>Let it be unique for yourself & yet indentifiable for others.<br/>
             <span>stay home and shop online</span></i></p>
-            <button>Explore <i className='fa fa-arrow-right'></i></button>
+            <Link to={'/Home'}><button>Explore <i className='fa fa-arrow-right'></i></button></Link>
             </div>
             <div className="shop"></div>
             </div>

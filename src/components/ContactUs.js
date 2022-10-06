@@ -1,4 +1,4 @@
-import "./ContactUs.css";
+import "../styling/ContactUs.css";
 import React from 'react';
 import styled from 'styled-components'
 

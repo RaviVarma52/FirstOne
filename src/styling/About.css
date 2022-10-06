@@ -7,6 +7,7 @@
 
 .div1{
     display: flex;
+    padding: 100px;
 }
 
 .About span:first-child{
@@ -22,7 +23,7 @@ i{
 }
 
 .shop{
-    background-image: url('./shop.png');
+    background-image: url('../shop.png');
     background-size: 400px;
     width: 500px;
     height: 400px;
@@ -60,6 +61,7 @@ i{
 
 .div2{
     display:flex;
+    padding: 40px;
 }
 
 .card-title{
@@ -89,7 +91,7 @@ i{
 }
 
  .bike{  
-    background-image: url('./delivery1.png');
+    background-image: url('../delivery1.png');
     background-size: 200px;
     width: 200px;
     height:200px;
@@ -98,7 +100,7 @@ i{
     margin-left: 20px;}
 
     .phone{  
-        background-image: url('./phone.png');
+        background-image: url('../phone.png');
         background-size: 200px;
         width: 200px;
         height:200px;

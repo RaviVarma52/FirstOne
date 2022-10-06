@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import ContactUs from './ContactUs';
-import Welcome from './Welcome';
-import Header from './Header';
+import './styling/App.css';
+import ContactUs from './components/ContactUs';
+import Welcome from './components/Welcome';
+import Header from './components/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import "font-awesome/css/font-awesome.min.css";
+import Home from './components/Home';
+import About from './components/About';
+// import "font-awesome/css/font-awesome.min.css";
 
 function App() {
   return (
