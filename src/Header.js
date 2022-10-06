@@ -24,7 +24,7 @@ const Header = () => {
             {
                 HamBurgerMenu && <div className="headerHamBurger">
                                     <hr/>
-                                    <h2 onClick={() => setHamBurgerMenu(!HamBurgerMenu)}>About</h2>
+                                    <h2 onClick={() => setHamBurgerMenu(!HamBurgerMenu)}><Link to={`/about`}>About</Link></h2>
                                     <hr/>
                                     <h2 onClick={() => setHamBurgerMenu(!HamBurgerMenu)}> <Link to={`/contactUs`}>Contact</Link> </h2>
                                     <hr/>
