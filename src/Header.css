@@ -42,3 +42,32 @@ a {
         margin-bottom: 30px;
     }
 }
+.header{
+    background: linear-gradient(90deg,rgb(221, 251, 160),rgb(227, 246, 254),rgb(252, 201, 208));;
+}
+
+input[type="text"]{
+    width:500px;
+    height:30px;
+    border-radius:15px;
+    border: 1px solid rgb(193, 191, 191);
+    margin-top: 25px;
+    box-shadow: 0 2px 8px 0 rgba(225, 224, 224, 0.697),0 2px 20px 0 rgba(216, 216, 216, 0.615);
+    
+}
+@font-face {
+    font-family: "Passions Conflict";
+    src: url("https://www.fontspace.com/roxale-story-font-f77391");
+}
+
+h2 :link{
+    text-decoration:none;
+    padding-left:20px;
+    font-family:Bakerville;
+    font-style:italic;
+    font-weight:bol;
+}
+
+h2:last-child{
+    padding-right: 25px;
+}

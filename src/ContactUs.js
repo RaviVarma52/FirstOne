@@ -1,4 +1,5 @@
-import "./ContactUs.css"
+import "./ContactUs.css";
+import React from 'react';
 import styled from 'styled-components'
 
 const ContactUs = () => {

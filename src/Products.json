@@ -1,0 +1,75 @@
+{ 
+    "products": [
+     {
+        "id":1,
+        "img":"https://tse4.mm.bing.net/th?id=OIP.CtymynM1HECl9oFJuTfiJwHaHa&pid=Api&P=0",
+        "brand":"Nike",
+        "description":"Nike red and black running and casual Shoe",
+        "Actualcost":"4000/-",
+        "Discountcost":"2800/-",
+        "discount":"30%"
+    },
+    {
+        "id":2,
+        "img":"https://tse1.mm.bing.net/th?id=OIP.xUi4Anh4eJdv8Noh5Ch7EwHaHa&pid=Api&P=0",
+        "brand":"Red Tape",
+        "description":"Women pink running and casual shoe ",
+        "Actualcost":"3000/-",
+        "Discountcost":"2160/-",
+        "discount":"24%"
+    },
+    {
+        "id":3,
+        "img":"https://d2x02matzb08hy.cloudfront.net/img/clothing/hero_image/781218679/Untitled_design__24_.jpg",
+        "brand":"Libas",
+        "description":"women teal blue and purple kurta with palazoo and duppata set",
+        "Actualcost":"2000/-",
+        "Discountcost":"980/-",
+        "discount":"49%"
+    },
+    {
+        "id":4,
+        "img":"https://tse4.mm.bing.net/th?id=OIP.sT52nV_rkSm6fQg5ILMhAgHaHa&pid=Api&P=0",
+        "brand":"Wrogn",
+        "description":"Men blue slim fit denim casual shirt",
+        "Actualcost":"2599/-",
+        "Discountcost":"1299/-",
+        "discount":"50%"
+    },
+    {
+        "id":5,
+        "img":"https://tse4.mm.bing.net/th?id=OIP.1Xs4JSygmoWqs1Wn2B3U3AHaM9&pid=Api&P=0",
+        "brand":"Fossil",
+        "description":"Fossil Chronograph Black Men Watch",
+        "Actualcost":"12,495/-",
+        "Discountcost":"7,495/-",
+        "discount":"40%"
+    },
+    {
+        "id":6,
+        "img":"https://tse1.mm.bing.net/th?id=OIP.yMQZo3iUkredxGpmh3AQZQHaIq&pid=Api&P=0",
+        "brand":"Titan",
+        "description":"Titan Analog rose gold dial women's watch",
+        "Actualcost":"8,495/-",
+        "Discountcost":"7,495/-",
+        "discount":"15%"
+    },
+    {
+        "id":7,
+        "img":"https://media.4rgos.it/i/Argos/8507110_R_Z003A",
+        "brand":"HP pavilion",
+        "description":"HP pavilion 15.6 Inch pentium gold 4gb 128gb",
+        "Actualcost":"1,20,000/-",
+        "Discountcost":"98,000/-",
+        "discount":"28%"
+    },
+    {
+        "id":8,
+        "img":"https://tse1.mm.bing.net/th?id=OIP.SSR27Sg9KHGvnCgBTRYMVgHaEK&pid=Api&P=0",
+        "brand":"Iphone 13 pro",
+        "description":"Sports white tie and dye Shoe",
+        "Actualcost":"1,02,000/-",
+        "Discountcost":"76,000/-",
+        "discount":"42%"
+    }
+]}
