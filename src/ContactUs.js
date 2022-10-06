@@ -29,7 +29,7 @@ saturate(100%);
     `;
     return (
         <div className="contactUs">
-                <MainContainer>
+                <div className="mainContainer" >
                     <div className="top">
                             <h1>Anything wrong??</h1>
                     </div>
@@ -61,7 +61,7 @@ saturate(100%);
                             </div>
                         </div>
                     </div>
-                </MainContainer>
+                </div>
         </div>
     );
 }

@@ -1,6 +1,6 @@
 .contactUs {
-  background: linear-gradient(35deg,#E5A663,#FAEE9E,#E5A663);
-  /* padding:  80px 100px 100px 100px;   */
+  /* background: linear-gradient(35deg,#E5A663,#FAEE9E,#E5A663); */
+  padding:  80px 100px 100px 100px;  
   display: flex;
   justify-content: center;
 }
@@ -33,7 +33,7 @@
     top: 100px;
     left: 200px;
     margin-left: 60px;
-    z-index: 1;
+    z-index: -1;
 }
 .minionSmall {
     background-image: url('./min.png');
@@ -44,6 +44,28 @@
     position: relative;
     margin-left: 80px;  
 }
+.mainContainer {
+  display: "flex" ;
+  align-items:center;
+  flex-direction:column;
+  height:70vh;
+  width:70vw;
+  background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, .25),
+      rgba(255, 255, 255, .25), 70%, 
+      rgba(255, 255, 255, .25)
+    );
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow:
+  inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
+  inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+  0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px) saturate(100%);
+}
+/* backdrop-filter: blur(15px) saturate(100%); */
+
 form {
     background: rgba(255, 255, 255, 0);
     padding: 3em;
@@ -81,10 +103,9 @@ form {
   }
   form input {
     background: transparent;
-    width: 300px;
     height: 25px;
     padding: 1em;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
     border: none;
     border-left: 1px solid rgba(255, 255, 255, 0.3);
     border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -108,7 +129,7 @@ form {
     box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
   }
   form input[type="button"] {
-    margin-top: 10px;
+    margin-top: 40px;
     width: 150px;
     height: 65px;
     font-size: 1.25rem;
@@ -206,3 +227,72 @@ form {
   button:focus {
     outline: none;
   }
+@media screen and (min-device-width:768px) and (max-device-width: 1324px) {
+  .main {
+    flex-direction: column;
+  }
+  .leftInContactUs {
+    width: auto;
+  }
+  .mainContainer {
+    height: auto;
+  }
+  form {
+    width: 400px;
+  }
+  .rightInContactUs {
+    padding: 0px 100px 40px 150px;
+  }
+}
+@media screen and (max-device-width: 767px) {
+   .main {
+    flex-direction: column;
+  }
+  .top {
+    padding: 0px;
+  }
+  .contactUs {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .leftInContactUs {
+    width: auto;
+    padding: 0px 20px;
+  }
+  .mainContainer {
+    background: none;
+    height: auto;
+    border: none;
+    box-shadow: none;
+  }
+   .contactMinions {
+    display: none;
+  }
+  .minionSmall {
+    position: absolute;
+    background-size: 250px;
+    width: 160px;
+    left: 50px;
+    top: 50px;
+    z-index: -1;
+  }
+  .rightInContactUs {
+    padding: 20px 10px;
+  }
+  form {
+   width: 300px;
+  }
+  .drop-4 {
+    right: -30px;
+  }
+  .drop-5 {
+    left: 10px;
+  }
+}
+@media screen and (max-device-width: 380px ) {
+  form {
+    width: 250px;
+    padding: 20px;
+   }
+}
+
