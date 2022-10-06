@@ -1,7 +1,8 @@
 .App {
-  background: linear-gradient(35deg,#E5A663,#FAEE9E,#E5A663);
+  /* background: linear-gradient(35deg,#E5A663,#FAEE9E,#E5A663); */
   /* background-image: url('https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-2x1-.jpg?auto=webp&quality=75&crop=2:1&width=1024'); */
   background-size: 100%;
+  background: linear-gradient(90deg,rgb(221, 251, 160),rgb(227, 246, 254),rgb(252, 201, 208));
 }
   h1 {
     padding: 20px;
@@ -41,4 +42,5 @@ button {
 }
 .leftSide {
   margin-top: 100px;
+  
 }

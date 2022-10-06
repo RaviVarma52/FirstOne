@@ -11,6 +11,7 @@ const Header = () => {
           <h2><Link to={`/about`}>About</Link></h2>
           <h2> <Link to={`/contactUs`}>Contact</Link> </h2>
           <h2><Link>Products</Link></h2>
+          <h2><Link><i className="fa fa-user-circle-o"></i></Link></h2>
         </div>
     </div>
     )
