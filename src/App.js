@@ -6,7 +6,7 @@ import Header from './Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
-import "font-awesome/css/font-awesome.min.css";
+// import "font-awesome/css/font-awesome.min.css";
 
 function App() {
   return (
