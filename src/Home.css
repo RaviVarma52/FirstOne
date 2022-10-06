@@ -1,0 +1,149 @@
+.Home {
+    /* padding:  80px 100px 100px 100px;   */
+    /* display: flex; */
+    justify-content: center;
+  }
+  .captainAmerica {
+    background-image: url('./cap.jpg');
+    background-size: 1600px;
+  width: 1600px;
+  height: 1500px;
+  background-repeat: no-repeat;
+  position: relative;
+  }
+  .mainCarousel {
+    display: flex;
+    justify-content: space-between;
+  }
+  .leftCardInCarousel {
+    height: 400px;
+    background-color: #6CD0FF;
+    width: 30px;
+    border-radius: 0px 40px 40px 0px;
+  }
+  .leftInCarousel {
+    padding: 100px 0px 0px 100px;
+
+  }
+  .carousel {
+    display: flex;
+    height: 400px;
+    width: 93vw;
+    background-color: #f0d08c;
+    border-radius: 40px;
+    justify-content: space-between;
+  }
+  .carousel h1 {
+    padding: 0px;
+  }
+  .fa-arrow-right {
+    color: white;
+    margin-left: 10px;
+  }
+  .leftInCarousel button {
+    border-radius: 50px;
+  }
+  .rightCardInCarousel {
+    height: 400px;
+    background-color: #9CEBB3;
+    width: 30px;
+    border-radius: 40px 0px 0px 40px;
+   
+  }
+  .cards {
+    padding: 50px 150px;
+    display: flex; 
+    justify-content: space-around;
+  }
+  .card-home {
+    width: 200px;
+  }
+.card-top-1 {
+  width: 200px;
+  height: 200px;
+  background-color: #6CD0FF;
+  border-radius: 50px;
+}
+.card-top-2 {
+  width: 200px;
+  height: 200px;
+  background-color: #F2C5FF;
+  border-radius: 50px;
+}
+.card-top-3 {
+  width: 200px;
+  height: 200px;
+  background-color: #5D69BE;
+  border-radius: 50px;
+}
+.card-top-4 {
+  width: 200px;
+  height: 200px;
+  background-color: #92e1e2;
+  border-radius: 50px;
+}
+.card-bottom {
+  padding: 20px 0px 0px 0px;
+}
+.card-home button  {
+  background-color: rgb(206, 202, 202);
+  width: 200px;
+  border: none;
+  color: black;
+}
+.fa-shopping-cart {
+  margin-right: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.ShoeInCarousel {
+  background-image: url("./shoeInCarousel.png");
+  background-size: 350px;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -20%;
+  /* z-index: -1; */
+}
+.NikeAir {
+  background-image: url("./shoe1.png");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+  top: 25%;
+}
+.AirJordan {
+  background-image: url("./shoe2.png");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+  top: 20%;
+}
+.NikeNitro {
+  background-image: url("./shoe3.png");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+  top: 10%;
+}
+.AirSpain {
+  background-image: url("./shoe4.png");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+}

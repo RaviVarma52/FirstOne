@@ -1,0 +1,73 @@
+.hamBurger {
+    display: none;
+    /* z-index: 1; */
+}
+a {
+    color: black !important;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .headerRight {
+        display: none;
+    }
+    .hamBurger {
+        display: block;
+        border: 4px solid black;
+        height: 45px;
+        width: 50px;
+        border-radius: 6px;
+        margin: 12px 15px 0px 0px;
+    }
+    .bar {
+        display: block;
+        width: -webkit-fill-available;
+        width: -moz-available;
+        border-radius: 3px;
+        height: 4px;
+        margin: 0 3px;
+        cursor: pointer;
+        overflow: hidden;
+        background-color: black;
+        margin: 6px 8px 0px 8px;
+    }
+    .header h1 {
+        font-size: 40px;
+    }
+    .headerHamBurger {
+        position: absolute;
+        top: 50px;
+        margin: auto;
+        left: 35%;
+        width: 100px;
+        margin-bottom: 30px;
+    }
+}
+.header{
+    background: linear-gradient(90deg,rgb(221, 251, 160),rgb(227, 246, 254),rgb(252, 201, 208));;
+}
+
+input[type="text"]{
+    width:500px;
+    height:30px;
+    border-radius:15px;
+    border: 1px solid rgb(193, 191, 191);
+    margin-top: 25px;
+    box-shadow: 0 2px 8px 0 rgba(225, 224, 224, 0.697),0 2px 20px 0 rgba(216, 216, 216, 0.615);
+    
+}
+@font-face {
+    font-family: "Passions Conflict";
+    src: url("https://www.fontspace.com/roxale-story-font-f77391");
+}
+
+h2 :link{
+    text-decoration:none;
+    padding-left:20px;
+    font-family:Bakerville;
+    font-style:italic;
+    font-weight:bol;
+}
+
+h2:last-child{
+    padding-right: 25px;
+}
