@@ -27,7 +27,7 @@
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 .minions {
-  background-image: url("./mini.png");
+  background-image: url("../mini.png");
   background-size: 600px;
   width: 600px;
   height: 500px;

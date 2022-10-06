@@ -24,7 +24,7 @@
     float: right;
 }
 .contactMinions {
-    background-image: url('./minGuitar.png');
+    background-image: url('../minGuitar.png');
     background-size: 400px;
     width: 400px;
     height: 380px;
@@ -36,7 +36,7 @@
     z-index: -1;
 }
 .minionSmall {
-    background-image: url('./min.png');
+    background-image: url('../min.png');
     background-size: 300px;
     width: 300px;
     height: 180px;

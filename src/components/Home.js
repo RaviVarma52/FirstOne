@@ -1,4 +1,4 @@
-import "./Home.css"
+import "../styling/Home.css"
 import {Carousel} from '3d-react-carousal';
 
 const Home = () => {
